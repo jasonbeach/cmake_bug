@@ -12,8 +12,8 @@ set(FOO_INSTALL_INCLUDE_DIR ${CMAKE_INSTALL_INCLUDEDIR}/foo)
 # if libraries are declared here, then the FooTargets.cmake has weird INTERFACE_LINK_LIBRARIES for 
 # PRIVATE libraries
 
-add_library(Foo STATIC "")
-add_library(Foo::Foo ALIAS Foo)
+# add_library(Foo STATIC "")
+# add_library(Foo::Foo ALIAS Foo)
 
 add_subdirectory(src)
 

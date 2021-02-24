@@ -1,7 +1,7 @@
 
 # # If libraries declared here, all is ok
-# add_library(Foo STATIC "")
-# add_library(Foo::Foo ALIAS Foo)
+add_library(Foo STATIC "")
+add_library(Foo::Foo ALIAS Foo)
 
 target_sources(Foo
   PUBLIC
